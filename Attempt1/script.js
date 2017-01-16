@@ -92,7 +92,11 @@ $(document).ready(function() {
     });
 });
 
-
+$('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+});
 
 function addSubMenu(array, listParent, subMenu) {
 	var menu_tag = `"menu`+ subMenu +`"`;

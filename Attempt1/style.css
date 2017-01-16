@@ -1,0 +1,19 @@
+.dropdown-submenu {
+    position: relative;
+	list-style-type: none;
+}
+
+.dropdown-submenu .dropdown-menu .dropdown{
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.item{
+	list-style-type: none;
+}
+
+.highlight {
+    background-color: cyan;
+    font-weight: bold;
+}
