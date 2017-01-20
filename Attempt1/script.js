@@ -57,9 +57,6 @@ dictionary5.push("Item 5-2");
 dictionary.push(new Dictionary("Item 5", dictionary5));
 dictionary.push("Item 6");
 
-//TODO - if dropdowns are next to each other, it isn't vertical
-}
-
 //constructs the popover
 //right isn't working for some reason
 var element = new Element("#pop", "right", new Dictionary("Items", dictionary));

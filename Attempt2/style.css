@@ -53,3 +53,11 @@ body {
   width: 0;
   margin-left: 5px;
 }
+
+a.dropdown-toggle {
+  display:block;
+}
+
+.highlight{
+  background-color: yellow;
+}
